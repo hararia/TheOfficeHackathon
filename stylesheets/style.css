@@ -1,17 +1,113 @@
 section{
     display: flex;
     height:100vh;
-    justify-content: center;
     
+}
+#main-page{
+    background-image: url('../Images/index.png')
+    }
+
+#main-page-title{
+    top: 62px;
+left: 58px;
+width: 720px;
+height: 256px;
+color:#362D26;
+font: Light var(--unnamed-font-size-96)/var(--unnamed-line-spacing-106) var(--unnamed-font-family-copperplate-gothic);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-362d26);
+text-align: left;
+font: Copperplate Gothic;
+letter-spacing: 0px;
+color: #362D26;
+opacity: 1;
+font-size: 96px;
+}   
+
+#main-page-about-me{
+    position: absolute;
+    top: 380px;
+left: 58px;
+width: 206px;
+height: 38px;
+font: Bold var(--unnamed-font-size-34)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-copperplate-gothic);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-362d26);
+text-align: left;
+font: Bold 34px/38px Copperplate Gothic;
+letter-spacing: 0px;
+color: #362D26;
+opacity: 1;
+}
+
+#main-page-accomplishments{
+    position: absolute;
+    top: 480px;
+left: 58px;
+width: 386px;
+height: 36px;
+font: Bold var(--unnamed-font-size-34)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-copperplate-gothic);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-362d26);
+text-align: center;
+font: Bold 34px/38px Copperplate Gothic;
+letter-spacing: 0px;
+color: #362D26;
+opacity: 1;
+}
+
+#main-page-contant-me{
+    position: absolute;
+    top: 578px;
+left: 58px;
+width: 267px;
+height: 36px;
+font: Bold var(--unnamed-font-size-34)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-copperplate-gothic);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-362d26);
+text-align: center;
+font: Bold 34px/38px Copperplate Gothic;
+letter-spacing: 0px;
+color: #362D26;
+opacity: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+#main-page-info-box{
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    top: 594px;
+left: 1256px;
+width: 615px;
+height: 303px;
+background: #3B332A 0% 0% no-repeat padding-box;
+border-radius: 47px;
+opacity: 1;
+}
+
+#main-page-info-box-text{
+    margin-top:75px;
+    top: 651px;
+left: 1382px;
+width: 363px;
+height: 190px;
+font: Bold var(--unnamed-font-size-34)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-copperplate-gothic);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-f1d689);
+text-align: left;
+font: Bold 34px/38px Copperplate Gothic;
+letter-spacing: 0px;
+color: #F1D689;
+opacity: 1;
 }
 
 .container{
     display:flex;
     justify-content: flex-end;
-}
-
-h1{
-    text-align: center;
 }
 
 .transition{
