@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.transition{
+    transition: all 7000ms ease 0s;
+    transform: translate3d(-1149px, 0px, 0px);
+}
